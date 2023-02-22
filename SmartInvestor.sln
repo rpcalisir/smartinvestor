@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMIV.DataManager", "SMIV.DataManager\SMIV.DataManager.csproj", "{58A843BE-69ED-4E00-9C9B-52DD2DFA5A46}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SMIV.Data", "SMIV.Data\SMIV.Data.sqlproj", "{F9B6A865-9A00-469A-8083-D615A3ECE8DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{58A843BE-69ED-4E00-9C9B-52DD2DFA5A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58A843BE-69ED-4E00-9C9B-52DD2DFA5A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58A843BE-69ED-4E00-9C9B-52DD2DFA5A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B6A865-9A00-469A-8083-D615A3ECE8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B6A865-9A00-469A-8083-D615A3ECE8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B6A865-9A00-469A-8083-D615A3ECE8DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F9B6A865-9A00-469A-8083-D615A3ECE8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B6A865-9A00-469A-8083-D615A3ECE8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B6A865-9A00-469A-8083-D615A3ECE8DE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
