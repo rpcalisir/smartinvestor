@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[PortfolioFund]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+	[FONKODU] NVARCHAR (5) NOT NULL
+)

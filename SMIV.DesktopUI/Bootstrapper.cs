@@ -11,6 +11,17 @@ namespace SMIV.DesktopUI
 {
     public class Bootstrapper : BootstrapperBase
     {
+        private SimpleContainer _container;
+
+        protected override void Configure()
+        {
+            _container= new SimpleContainer();
+
+            _container.Singleton<IWindowManager, WindowManager>();
+            _container.Singleton<IEventAggregator, EventAggregator>();
+
+        }
+
         public Bootstrapper()
         {
             Initialize();

@@ -61,5 +61,10 @@
     <Folder Include="dbo\Views" />
     <Folder Include="dbo\Tables" />
     <Folder Include="PublishLocations" />
+    <Folder Include="Tables" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\ComparisonFund.sql" />
+    <Build Include="Tables\PortfolioFund.sql" />
   </ItemGroup>
 </Project>
